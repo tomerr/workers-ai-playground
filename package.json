@@ -5,7 +5,10 @@
 	"scripts": {
 		"start": "vite dev",
 		"deploy": "vite build && wrangler deploy",
-		"type-check": "tsc --noEmit"
+		"type-check": "tsc --noEmit",
+		"test": "vitest",
+		"test:ui": "vitest --ui",
+		"test:coverage": "vitest --coverage"
 	},
 	"dependencies": {
 		"ai": "^4.3.16",
